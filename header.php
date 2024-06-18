@@ -1,6 +1,3 @@
-<?php 
-  include("header.php");
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,26 +12,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-          
-          <div class="section">
-            <h1 class="revealUp">Scroll page</h1>
+      
+         <div class="mainsection">
+            <div class="heading">
+              <nav>
+                <ul class="menu">
+                  <li><a href="index.php">DesignStudio</a></li>
+                  <li><a href="#!">&nbsp; Catalog</a></li>
+                  <li><a href="#!">Contact</a></li>
+                  <li><a href="request.php">Request</a></li>
+                  <li><a href="profile.php">My Prolife</a></li>
+                </ul>
+              </nav>
+            </div>
           </div>
           
-          <div class="section bg1">
-            <h1 class="revealUp">first page</h1>
-          </div>
-          
-          <div class="section bg2">
-            <h1 class="revealUp">second page</h1>
-          </div>
-          <div class="section bg3">
-            <p class="mb-0">Design Studio Inventory System &copy; 2024</p>
-          </div>
-
-
-   
-   
-  
-</body>
-</html>
+</body>    
+</html>      
