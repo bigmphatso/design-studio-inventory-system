@@ -1,0 +1,80 @@
+
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    margin:0px;
+}
+body{
+    background-color: rgb(42, 36, 36);
+}
+.content{
+    background-color: rgb(247, 216, 14);
+    padding: 45px;
+    border-radius: 14px;
+    min-width: 350px;
+    max-width: 350px;
+}
+
+.header-details h1{
+    color: rgb(65, 159, 56);
+    margin-bottom: 5px;
+}
+
+.input-field{
+    margin-top: 10px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.input-field label{
+    font-size: 14px;
+    font-weight: 800;
+
+}
+.input-field input{
+    padding: 3px;
+    border-radius: 5px;
+    border-style: none;
+
+}
+.input-field input:focus{
+    outline: 0;
+}
+
+.input-field.error input{
+    border: solid;
+    border-width: 1px;
+    border-color:  brown;
+    
+}
+.input-field.success input{
+    border: solid;
+    border-width: 1px;
+    border-color:rgb(65, 159, 56);
+    
+}
+
+.error-box{
+    color: brown;
+    font-size: 11px;
+}
+
+button{
+    font-size: 14px;
+    font-weight: 650;
+    padding: 8px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background-color: rgb(65, 159, 56);
+    margin-bottom: 5px;
+}
+button:hover{
+
+    padding: 7px;
+    color:rgb(65, 159, 56);
+    background-color: rgb(247, 216, 14);
+    border: solid ;
+    border-width: 1px;
+    margin-bottom: 5px;
+
+}
